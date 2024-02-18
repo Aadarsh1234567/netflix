@@ -91,3 +91,119 @@ body {
   right: 5%;
   color: white;
 }
+.border {
+  width: 100%;
+  background-color: grey;
+  height: 10px;
+}
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  padding: 50px;
+}
+.text {
+  width: 30%;
+  padding: 50px;
+  color: white;
+}
+.text h1 {
+  font-size: 60px;
+}
+.text p {
+  font-size: 20px;
+}
+
+#section2-h1 {
+  width: 120%;
+}
+
+.fyq {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.fyq h1 {
+  font-size: 55px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  background: rgba(128, 128, 128, 0.331);
+  padding: 10px 30px 10px 30px;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.box:hover {
+  background-color: rgba(128, 128, 128, 0.683);
+  cursor: pointer;
+}
+
+.fyq-footer {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.fyq-footer form input {
+  width: 60%;
+  height: 40px;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  border: grey solid;
+  text-align: start;
+}
+.fyq-footer button {
+  width: 20%;
+  background-color: rgb(241, 24, 24);
+  padding: 15px;
+  color: white;
+}
+.footer {
+  background-color: black;
+
+  padding: 20px;
+}
+
+.footer-content {
+  color: rgba(255, 255, 255, 0.565);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  text-decoration: underline;
+}
+.footer ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer ul li {
+  padding: 0px 10px 0px 10px;
+  width: 25%;
+}
+
+.footer p {
+  margin-right: 71%;
+}
+.dropdown {
+  margin-right: 75%;
+}
+.dropdown select {
+  padding: 10px;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.453);
+  backdrop-filter: blur(50px);
+}
